@@ -1,5 +1,4 @@
 FROM  node:alpine
-MAINTAINER RWd <rwd-github@gmx.net>
 
 #RUN apk add --no-cache --update git
 RUN apk add --no-cache --update curl
