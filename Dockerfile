@@ -7,8 +7,8 @@ RUN apk add --no-cache --update curl
 #	cd etherpad-lite && \
 #	bin/installDeps.sh --root
 
-ENV ETHERPAD_VERSION 1.6.2
-#ENV ETHERPAD_VERSION 1.7.0
+#ENV ETHERPAD_VERSION 1.6.2
+ENV ETHERPAD_VERSION 1.8.4
 
 ADD https://github.com/ether/etherpad-lite/archive/${ETHERPAD_VERSION}.zip ./etherpad.zip
 
